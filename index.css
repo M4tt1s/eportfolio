@@ -585,7 +585,6 @@ body:not(.user-is-tabbing) a:focus {
 
 .inter__second-box {
     display: flex;
-    align-items: center;
 }
 
 @media(min-width: 901px) {
