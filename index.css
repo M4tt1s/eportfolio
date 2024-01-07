@@ -546,6 +546,43 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
+.inter__box {
+    display: flex;
+    align-items: center;
+}
+
+@media(max-width: 900px) {
+    .inter__box {
+        align-items: initial;
+        flex-direction: column-reverse;
+    }
+}
+
+/* .inter__box:not(:last-child) {
+    margin-bottom: 25rem;
+}
+
+@media(max-width: 500px) {
+    .inter__box:not(:last-child) {
+        margin-bottom: 20rem;
+    }
+} */
+
+.inter__links {
+    display: flex;
+    align-items: center;
+}
+
+.inter__text {
+    flex: 0 0 30%;
+}
+
+.inter__list {
+    /* list-style-type: square; */
+    list-style-position: inside;
+    margin-bottom: var(--gutter-normal);
+}
+
 /* --------------------------------------- */
 /* ----- About ----- */
 /* --------------------------------------- */
