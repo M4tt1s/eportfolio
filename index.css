@@ -549,7 +549,6 @@ body:not(.user-is-tabbing) a:focus {
 .inter__boxes {
     display: flex;
     justify-content: space-between;
-    filter: invert(100%) grayscale(100%) opacity(.8);
 }
 
 .inter__box {
