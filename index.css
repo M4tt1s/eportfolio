@@ -553,6 +553,7 @@ body:not(.user-is-tabbing) a:focus {
     margin-top: 64px;
     margin-left: 32px;
     margin-right: 32px;
+    margin-bottom: -200px;
 }
 
 .inter__box {
