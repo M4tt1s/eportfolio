@@ -553,12 +553,12 @@ body:not(.user-is-tabbing) a:focus {
 
 .inter__box {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
 }
 
 @media(max-width: 900px) {
     .inter__box {
-        align-items: initial;
+        /* align-items: initial; */
         flex-direction: column-reverse;
     }
 }
@@ -579,7 +579,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .inter__text {
-    flex: 1 1 30%;
+    flex: 0 0 30%;
 }
 
 .inter__list {
