@@ -588,7 +588,7 @@ body:not(.user-is-tabbing) a:focus {
     align-items: center;
 }
 
-@media(max-width: 900px) {
+@media(min-width: 901px) {
     .inter__second-box {
         align-items: initial;
         flex-direction: column-reverse;
