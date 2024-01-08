@@ -581,6 +581,7 @@ body:not(.user-is-tabbing) a:focus {
 .inter__links {
     display: flex;
     align-items: center;
+    gap: 64px;
 }
 
 .inter__text {
